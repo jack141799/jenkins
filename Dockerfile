@@ -1,6 +1,4 @@
 FROM centos:centos6
-MAINTAINER Imagine Chiu<imagine10255@gmail.com>
-
 
 ENV SSH_PASSWORD=P@ssw0rd
 
