@@ -23,7 +23,7 @@ RUN sed -ri 's/#UsePAM no/UsePAM no/g' /etc/ssh/sshd_config && \
 
 
 # Install crontab service
-RUN yum -y install vixie-cron crontabs
+RUN yum -y install vixie-cron crontabs cronie
 
 
 # Install Git need package
