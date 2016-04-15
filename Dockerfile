@@ -100,7 +100,7 @@ RUN chmod 755 /opt/docker/bash/setting-lnmp.sh && bash /opt/docker/bash/setting-
 
 
 # Setting DateTime Zone
-RUN cp -p /usr/share/zoneinfo/Asia/Taipei /etc/localtime
+RUN cp -p /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 
 # Setup default path
